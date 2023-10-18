@@ -1,0 +1,3 @@
+npx create-react-app nombre carpeta *****Para crear un nuevo proyecto en react
+cd ./nombre proyecto
+npm run start ** para inicializar el servidor
