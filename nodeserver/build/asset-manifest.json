@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/static/css/main.5c18c962.css",
+    "main.js": "/static/js/main.58917f5a.js",
+    "static/js/787.58d7bd52.chunk.js": "/static/js/787.58d7bd52.chunk.js",
+    "static/media/username-icon.svg": "/static/media/username-icon.aa4622913f5462e0618f3fb832b06f6a.svg",
+    "static/media/pokemon.png": "/static/media/pokemon.5c5aeb83af8ab69cdf6a.png",
+    "static/media/password-icon.svg": "/static/media/password-icon.efe6d1a9ad9573ed0ab9b80b3e6eaac3.svg",
+    "index.html": "/index.html",
+    "static/media/usuario.svg": "/static/media/usuario.0ad79270bcded529bcf79cf9c4689fe2.svg",
+    "static/media/Registro.svg": "/static/media/Registro.5f49832fe1867efa87f91899e9892d5e.svg",
+    "main.5c18c962.css.map": "/static/css/main.5c18c962.css.map",
+    "main.58917f5a.js.map": "/static/js/main.58917f5a.js.map",
+    "787.58d7bd52.chunk.js.map": "/static/js/787.58d7bd52.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5c18c962.css",
+    "static/js/main.58917f5a.js"
+  ]
+}

@@ -1,0 +1,42 @@
+[{
+  "_id": {
+    "$oid": "654952c1221942389e971e8c"
+  },
+  "inputname1": "Laura",
+  "inputname2": "",
+  "inputlast1": "Jaramillo",
+  "inputlast2": "",
+  "inputemail": "laur@hotmail.com",
+  "inputAddress1": "Direccion",
+  "inputpassword": "12345678",
+  "inputpassword2": "12345678",
+  "rol": "user"
+},
+{
+  "_id": {
+    "$oid": "654952f6221942389e971e8d"
+  },
+  "inputname1": "Administrador",
+  "inputname2": "",
+  "inputlast1": "Amin_Last",
+  "inputlast2": "",
+  "inputemail": "admin@gmail.com",
+  "inputAddress1": "direccionAdmin",
+  "inputpassword": "12345678",
+  "inputpassword2": "12345678",
+  "rol": "admin"
+},
+{
+  "_id": {
+    "$oid": "65495311221942389e971e8e"
+  },
+  "inputname1": "Maria",
+  "inputname2": "",
+  "inputlast1": "Sanchez",
+  "inputlast2": "",
+  "inputemail": "maria@gmail.com",
+  "inputAddress1": "DireccionMaria",
+  "inputpassword": "12345678",
+  "inputpassword2": "12345678",
+  "rol": "user"
+}]

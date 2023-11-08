@@ -34,6 +34,38 @@ async function connectToDatabase() {
 
 connectToDatabase();
 
+//Configuracion de la compilacion de react
+
+app.use(express.static(path.resolve("./build")));
+app.get("/", (req, res) => {
+res.sendFile(path.resolve("./build/index.html"));
+});
+
+app.get("/ingresar", (req, res) => {
+  res.sendFile(path.resolve("./build/index.html"));
+});
+
+app.get("/registro", (req, res) => {
+  res.sendFile(path.resolve("./build/index.html"));
+});
+
+app.get("/administrador", (req, res) => {
+  res.sendFile(path.resolve("./build/index.html"));
+});
+
+app.get("/comprar", (req, res) => {
+  res.sendFile(path.resolve("./build/index.html"));
+});
+
+app.get("/inventario", (req, res) => {
+  res.sendFile(path.resolve("./build/index.html"));
+});
+
+app.get("/compras", (req, res) => {
+  res.sendFile(path.resolve("./build/index.html"));
+});
+
+
 // Rutas para obtener productos y comprar
 app.get("/productoslist", async (req, res) => {
   try {
@@ -56,9 +88,6 @@ app.get("/compraslist", async (req, res) => {
   }
 });
 
-app.get("/comprar", (req, res) => {
-  res.sendFile(path.resolve(__dirname, "comprar.html"));
-});
 
 app.post("/comprar", async (req, res) => {
   try {
@@ -209,7 +238,7 @@ function verifyToken(req, res, next) {
   });
 }
 
-app.get("/administrador", verifyToken, (req, res) => {
+app.post("/administrador", verifyToken, (req, res) => {
   // Verificamos que el usuario tiene el rol de "admin" antes de permitir el acceso
   if (req.user.rol === "admin") {
     res.json({ isAdmin: true }); // Agregar "isAdmin: true" si es administrador
