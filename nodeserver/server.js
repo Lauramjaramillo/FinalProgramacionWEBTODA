@@ -138,7 +138,11 @@ app.post("/comprar", async (req, res) => {
   }
 });
 
-
+// Función de validación de formData
+function validateFormData(formData) {
+  // Implementa la lógica de validación aquí
+  return {}; // Cambia esto según tus requisitos
+}
 
 // Ruta de registro de usuarios
 app.post("/registro", async (req, res) => {
